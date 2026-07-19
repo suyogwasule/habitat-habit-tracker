@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="32dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/timer_start_pause_button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rounded_button_bg"
+        android:text="Start"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/timer_reset_button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_outline_button_bg"
+        android:text="Reset"
+        android:textColor="#FF1A75" />
+</LinearLayout>

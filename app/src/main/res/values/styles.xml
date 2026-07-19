@@ -1,0 +1,66 @@
+<resources>
+    <style name="TimePickerTheme" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">#FF1A75</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#AAAAAA</item>
+        <item name="android:colorBackground">#222222</item>
+        <item name="android:timePickerStyle">@style/TimePickerStyle</item>
+    </style>
+
+    <style name="TimePickerStyle" parent="android:Widget.Material.TimePicker">
+        <item name="android:timePickerMode">spinner</item>
+        <item name="android:numbersTextColor">#FFFFFF</item>
+        <item name="android:numbersBackgroundColor">#222222</item>
+        <item name="android:headerBackground">#FF1A75</item>
+    </style>
+
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+    <item name="colorPrimary">#FF1A75</item>
+    <item name="colorAccent">#FF1A75</item>
+    <item name="android:textColorPrimary">#FFFFFF</item>
+    <item name="android:background">#222222</item>
+    </style>
+
+        <!-- Base application theme -->
+        <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+            <!-- Primary color for the app -->
+            <item name="colorPrimary">#FF1A75</item>
+            <!-- Darker variant of primary color for status bar and app bar -->
+            <item name="colorPrimaryDark">#CC1460</item>
+            <!-- Accent color for widgets like checkboxes and text fields -->
+            <item name="colorAccent">#FF1A75</item>
+            <!-- Background color -->
+            <item name="android:windowBackground">#000000</item>
+            <!-- Text color -->
+            <item name="android:textColor">#FFFFFF</item>
+        </style>
+
+    <!-- Number Picker Theme -->
+    <style name="NumberPickerTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="colorControlNormal">#FF1A75</item>
+        <item name="android:background">#333333</item>
+    </style>
+
+    <!-- Checkbox Theme -->
+    <style name="CheckBoxTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorControlNormal">#AAAAAA</item>
+        <item name="colorControlActivated">#FF1A75</item>
+    </style>
+
+    <!-- Calendar Theme -->
+    <style name="CalendarTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="colorAccent">#FF1A75</item>
+    </style>
+
+    <style name="CalendarDateText" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="CalendarWeekText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">#FF1A75</item>
+    </style>
+</resources>
+
